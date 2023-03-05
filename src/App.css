@@ -1,0 +1,72 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #D5E1EF;
+font-family: 'Karla', sans-serif;
+}
+
+.main--container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card--container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  background: white;
+  height: 60vh;
+  width: 40vh;
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  -ms-border-radius:20px;
+  -o-border-radius:20px;
+}
+
+.qr--container{
+  background-color: white;
+  margin-top: 10%;
+  height: 60%;
+  width: 90%;
+  border-radius: 10px ;
+  -webkit-border-radius: 10px ;
+  -moz-border-radius: 10px ;
+  -ms-border-radius: 10px ;
+  -o-border-radius: 10px ;
+}
+
+.qr--image{
+  height: 100%;
+  width:  100%;
+  border-radius: 10px ;
+  -webkit-border-radius: 10px ;
+  -moz-border-radius: 10px ;
+  -ms-border-radius: 10px ;
+  -o-border-radius: 10px ;
+}
+
+h3{
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+h6{
+  font-weight: 400;
+  text-align: center;
+  font-size: .8em;
+  margin-top: 1em;
+
+}
+
+.text--conatiner{
+  width: 70%;
+}
