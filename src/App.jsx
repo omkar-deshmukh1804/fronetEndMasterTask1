@@ -7,7 +7,7 @@ function App() {
     <div className="main--container">
       <div className='card--container'>
         <div className='qr--container'>
-          <img src='./public/image-qr-code.png' className='qr--image' />
+          <img src='/image-qr-code.png' className='qr--image' />
         </div>
 
         <div className='text--conatiner'>
